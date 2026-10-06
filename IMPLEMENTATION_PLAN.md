@@ -42,12 +42,12 @@ Development is conducted iteratively – each phase must be built, tested, and v
 Initialize the multi-module Gradle project structure, configure library version catalogs, and establish foundational public interfaces and domain models.
 
 #### Tasks:
-* [ ] Create Gradle configuration with Kotlin DSL (`settings.gradle.kts`, root `build.gradle.kts`, `gradle/libs.versions.toml`).
-* [ ] Initialize module `speech-core` as a pure Kotlin/JVM module (`plugins { id("kotlin") }`).
-* [ ] Initialize module `speech-android` as an Android Library module (`plugins { id("com.android.library") }`).
-* [ ] Initialize module `sample-app` as an Android Application module (`plugins { id("com.android.application") }`).
-* [ ] Establish package hierarchy (`com.loguscore.speech.core.*` and `com.loguscore.speech.android.*`).
-* [ ] Create baseline domain models and interfaces in `speech-core`:
+* [x] Create Gradle configuration with Kotlin DSL (`settings.gradle.kts`, root `build.gradle.kts`, `gradle/libs.versions.toml`).
+* [x] Initialize module `speech-core` as a pure Kotlin/JVM module (`plugins { id("kotlin") }`).
+* [x] Initialize module `speech-android` as an Android Library module (`plugins { id("com.android.library") }`).
+* [x] Initialize module `sample-app` as an Android Application module (`plugins { id("com.android.application") }`).
+* [x] Establish package hierarchy (`com.loguscore.speech.core.*` and `com.loguscore.speech.android.*`).
+* [x] Create baseline domain models and interfaces in `speech-core`:
   * `AudioSegment`
   * `SpeechConfiguration`
   * `SpeechLanguage`
@@ -56,9 +56,9 @@ Initialize the multi-module Gradle project structure, configure library version 
   * `SpeechState` & `SpeechEvent`
   * `SpeechError`
   * `SpeechRecognitionProvider` & `RecognitionCapabilities`
-* [ ] Implement `FakeSpeechRecognitionProvider` for test harnesses.
-* [ ] Write unit tests verifying model instantiation and contract invariants.
-* [ ] Verify that the complete project builds cleanly via `./gradlew check`.
+* [x] Implement `FakeSpeechRecognitionProvider` for test harnesses.
+* [x] Write unit tests verifying model instantiation and contract invariants.
+* [x] Verify that the complete project builds cleanly via `./gradlew check`.
 
 #### Acceptance Criteria:
 The project builds successfully via CLI, and unit tests in `speech-core` pass without warnings and without Android SDK dependencies.
