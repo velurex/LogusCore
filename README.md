@@ -1,8 +1,12 @@
 # Logus Core
 
+[![Status](https://img.shields.io/badge/Status-Early_Development-orange.svg)](#)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0+-purple.svg)](https://kotlinlang.org)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
+
+> [!WARNING]
+> **Under Active Development:** Logus Core is currently in an early development stage and is **not yet ready for production deployment or integration into external applications**. APIs and architecture are subject to breaking changes.
 
 **Logus Core** is a modern, modular, and general-purpose open-source Speech SDK for Android written in Kotlin. It provides Android applications with a unified, stable, and provider-agnostic interface for speech audio capture and Speech-to-Text (STT) transcription.
 

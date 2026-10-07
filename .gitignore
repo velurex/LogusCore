@@ -48,3 +48,8 @@ captures/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Business and non-repository documentation
+.business/
+business/
+
